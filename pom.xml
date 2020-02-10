@@ -64,7 +64,7 @@
     <dependency>
       <groupId>org.liquibase</groupId>
       <artifactId>liquibase-core</artifactId>
-      <version>3.8.0</version>
+      <version>3.8.6</version>
       <exclusions>
         <exclusion>
           <groupId>ch.qos.logback</groupId>
@@ -88,4 +88,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <!--<build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifestEntries>
+              <Automatic-Module-Name>be.yildizgames.module.database.updater</Automatic-Module-Name>
+            </manifestEntries>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>-->
 </project>
