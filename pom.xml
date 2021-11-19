@@ -35,12 +35,12 @@
   <url>https://engine.yildiz-games.be</url>
 
   <artifactId>module-database-updater</artifactId>
-  <version>1.0.4</version>
+  <version>1.0.5-SNAPSHOT</version>
 
   <parent>
     <groupId>be.yildiz-games</groupId>
     <artifactId>parent</artifactId>
-    <version>4.0.0</version>
+    <version>5.0.2</version>
   </parent>
 
   <packaging>jar</packaging>
@@ -51,20 +51,16 @@
     <url>https://github.com/yildiz-online/module-database-updater</url>
   </scm>
 
-  <properties>
-    <java.version>11</java.version>
-  </properties>
-
   <dependencies>
     <dependency>
       <groupId>be.yildiz-games</groupId>
       <artifactId>module-database</artifactId>
-      <version>3.1.0</version>
+      <version>3.2.5</version>
     </dependency>
     <dependency>
       <groupId>org.liquibase</groupId>
       <artifactId>liquibase-core</artifactId>
-      <version>4.0.0</version>
+      <version>4.6.1</version>
       <exclusions>
         <exclusion>
           <groupId>ch.qos.logback</groupId>
