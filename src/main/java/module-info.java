@@ -2,7 +2,7 @@
  * @author Grégory Van den Borre
  */
 
-module be.yildizgames.module.database.updater {
+open module be.yildizgames.module.database.updater {
 
     requires java.sql;
 
